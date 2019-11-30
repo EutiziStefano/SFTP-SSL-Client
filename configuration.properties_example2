@@ -1,0 +1,34 @@
+# tipo di traferimento: download | upload
+TIPO_TRAFERIMENTO=download
+
+# dati connessione
+IP=10.207.230.60
+USER=ptc3012
+PW=ptc3012
+
+# numero di file da trasferire, da inserire un percorso per ogni file
+NUMERO_FILE=4
+
+# file dinamico con data
+DINAMICO=true
+# formato della data es: yyyy-MM-dd HH:mm:ss.S
+FORMATO=yyyyMMdd
+
+#CARTELLA REMOTA
+REMOTE_FOLDER=/transfer/bolrep/
+#CARTELLA LOCALE
+LOCAL_FOLDER=/web/postalizzazioni/bollettini_telematici/
+
+# specifica dei file con percorso completo, origine e destinazione inserire (se dinamico, dove va inserita la data mettere %data% nel punto esatto)
+ORIGINE_FILE_1=BollettinoReport55111.%data%.txt
+DESTINAZIONE_FILE_1=BollettinoReport55111.%data%.txt
+
+ORIGINE_FILE_2=BollettinoReport55111.%data%.xml
+DESTINAZIONE_FILE_2=BollettinoReport55111.%data%.xml
+
+ORIGINE_FILE_3=BollettinoReport77555.%data%.txt
+DESTINAZIONE_FILE_3=BollettinoReport77555.%data%.txt
+
+ORIGINE_FILE_4=BollettinoReport77555.%data%.xml
+DESTINAZIONE_FILE_4=BollettinoReport77555.%data%.xml
+
